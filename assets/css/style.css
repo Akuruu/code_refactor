@@ -1,12 +1,16 @@
+/* selects all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* selects all elements in the main body */
+
 body {
     background-color: #d9dcd6;
 }
+
 
 .header {
     padding: 20px;
