@@ -6,41 +6,40 @@
 }
 
 /* Selects all elements in the main body */
-
 body {
     background-color: #d9dcd6;
 }
-
+/* Specifies header 1 style */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Specifies header 2 style */
 h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Specifies header 3 style */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Styles list*/
 ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Styles hyperlink text */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Changes font in each paragraph */
 p {
     font-size: 16px;
 }
-
+/* Selects everything in the navigation menu */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -56,7 +55,7 @@ nav {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Displays the main image */
 .cover-img {
     height: 800px;
     width: 100%;
@@ -65,23 +64,23 @@ nav {
     background-size: cover;
     background-position: center;
 }
-
+/* Moves select images to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Moves select images to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Places text and image content on top of each block */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Constructs the right sidebar */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -92,13 +91,13 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Aligns sidebar text */
 .sidebar {
     margin-bottom: 32px;
     color: #ffffff;
     
 }
-
+/* Displays color and structure for each <p> section */
 .blocks {
     margin-bottom: 20px;
     padding: 50px;
@@ -107,24 +106,24 @@ nav {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Selects everything in the footer */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Places text in the sidebar on top of each other */
 #benefits{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Changes image height to 200px */
 #img{
     max-height: 200px;
 }
-
+/* Changes the font size to 20px */
 #footer{
     font-size: 20px;
 }
